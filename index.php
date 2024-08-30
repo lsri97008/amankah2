@@ -6,6 +6,7 @@
 <head>
   <meta charset="utf-8" />
   <title>AGENOLX # Situs Slot Online Gacor Bet Kecil 200 Perak Pasti Profit</title>
+  <meta name="google-site-verification" content="fk9hXMcmKZzBnGbi0BPnQ0TZ4PJZkUykP2u1AmR-Dis" />
   <meta name="description" content="AGENOLX merupakan tempat terbaik para sloters untuk bermain slot online mereka menyediakan permainan slot gacor dengan minimal bet kecil hanya 200 perak anda sudah bisa bermain dan profit tiap hari." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <meta name="aplus-auto-exp" content='[{"filter":"exp-tracking=suggest-official-store","logkey":"/lzdse.result.os_impr","props":["href"],"tag":"a"}]' />
