@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE HTML>
 <html xmlns:wormhole="http://www.w3.org/1999/xhtml" lang="id-ID">
 <head>
@@ -20,7 +17,7 @@
   <link rel="manifest" href="https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json">
   <link rel="shortcut icon" href="https://imgstore.io/images/2024/07/21/faviconagenolx.png" />
   <link rel="canonical" href="https://sagenv.com/" />
-  <link rel="amphtml" href="https://sagenv.com/wp-includes/blocks/search.html" />
+  <link rel="amphtml" href="http://sagenv.com/wp-includes/blocks/search.html" />
   <!-- start preload -->
   <link rel="preload" href="https://goodimg.io/images/2024/08/30/600x600-mahjong-ways-2.jpg" as="image" />
   <link rel="preconnect dns-prefetch" href="//cart.lazada.co.id" />
