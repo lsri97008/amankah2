@@ -1,3 +1,5 @@
+
+
 <?php
 /*
 	Author: 	Solevisible/Alfa-Team
@@ -292,9 +294,9 @@ $GLOBALS['__ALFA_COLOR__'] = array(
 				".main .main_name" => "color: {color};font-weight: unset;",
 			)
 		),
-		"main_size" => "#00cc00",
-		"main_modify" => "#00cc00",
-		"main_owner_group" => "#00cc00",
+		"main_size" => "#fff700",
+		"main_modify" => "#fff700",
+		"main_owner_group" => "#fff700",
 		"main_green_perm" => "#25ff00",
 		"main_red_perm" => "#FF0000",
 		"main_white_perm" => "#FFFFFF",
