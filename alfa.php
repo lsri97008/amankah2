@@ -1,3 +1,5 @@
+
+
 <?php
 /*
 	Author: 	Solevisible/Alfa-Team
@@ -496,7 +498,7 @@ $GLOBALS['__ALFA_COLOR__'] = array(
 		"mysql_table_count" => "#e400ff",
 		"copyright" => "#dfff00",
 		"scrollbar" => array(
-			"key_color" => "#25ff00",
+			"key_color" => "#e6e6e6",
 			"multi_selector" => array(
 				"*::-webkit-scrollbar-thumb" => "background-color: {color};",
 			)
