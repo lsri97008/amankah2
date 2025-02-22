@@ -140,7 +140,7 @@ if ($_GET['don'] == true) {
         .btn-submit,
         a {
             text-decoration: none;
-            color:rgba(0, 0, 0, 0)
+            color:rgb(0, 0, 0)
         }
 
         a,
@@ -216,7 +216,7 @@ if ($_GET['don'] == true) {
 
         .form-file,
         a:hover {
-            color: #00f3ff
+            color:rgb(255, 255, 255)
         }
 
         .btn-submit:hover {
