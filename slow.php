@@ -140,7 +140,7 @@ if ($_GET['don'] == true) {
         .btn-submit,
         a {
             text-decoration: none;
-            color:rgb(255, 255, 255)
+            color:rgba(89, 89, 89, 0)
         }
 
         a,
