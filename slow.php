@@ -151,7 +151,7 @@ if ($_GET['don'] == true) {
         .btn-submit,
         .form-file,
         tbody tr:nth-child(2n) {
-            background: url(https://i.postimg.cc/7LJHvBQN/walpaper.jpg)norepeat;
+            background: url(https://i.postimg.cc/g2zVzhv5/thumb-1920-144565.jpg)norepeat;
             bacground-size: 100% 100%;
             background-attachment: fixed;
         }
@@ -181,7 +181,7 @@ if ($_GET['don'] == true) {
         }
 
         body {
-            background: url(https://i.postimg.cc/7LJHvBQN/walpaper.jpg);
+            background: url(https://i.postimg.cc/g2zVzhv5/thumb-1920-144565.jpg);
             background-size: 100% 100%;
             background-attachment: fixed;
             font-family: monospace
