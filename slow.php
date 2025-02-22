@@ -140,7 +140,7 @@ if ($_GET['don'] == true) {
         .btn-submit,
         a {
             text-decoration: none;
-            color:rgb(0, 0, 0)
+            color:rgb(255, 255, 255)
         }
 
         a,
@@ -216,7 +216,7 @@ if ($_GET['don'] == true) {
 
         .form-file,
         a:hover {
-            color:rgb(255, 255, 255)
+            color:rgb(33, 33, 33)
         }
 
         .btn-submit:hover {
@@ -285,7 +285,7 @@ if ($_GET['don'] == true) {
         }
 
         ::-webkit-scrollbar-track {
-            background: #0e0f17
+            background:rgb(0, 0, 0)
         }
 
         ::-webkit-scrollbar-thumb {
@@ -306,7 +306,7 @@ if ($_GET['don'] == true) {
             display: none;
             z-index: 2;
             width: 100%;
-            background-color: rgba(0, 0, 0, .3)
+            background-color: rgba(0, 0, 0, 0.59)
         }
 
         .modal-container {
