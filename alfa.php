@@ -1103,7 +1103,7 @@ echo '<input type="hidden" name="charset">
 <tr>
 <td><span class="header_vars">User:</span></td>
 <td><span class="header_values" id="header_userid">'. $uid . ' [ ' . $user . ' ] </span><span class="header_vars"> Group: </span><span class="header_values" id="header_groupid">' . $gid . ' [ ' . $group . ' ]</span> </td>
-<td width="12%" rowspan="8"><img style="border-radius:100px;" width="200" height="170" alt="alfa team 2012" draggable="false" src="https://i.gifer.com/ckP.gif" /></td>
+<td width="12%" rowspan="8"><img style="border-radius:100px;" width="200" height="170" alt="alfa team 2012" draggable="false" src="https://i.imgur.com/uqJNxpo.jpeg" /></td>
 </tr>
 <tr>
 <td><span class="header_vars">PHP:</span></td>
@@ -1229,8 +1229,8 @@ function showAnimation($name){
 }
 function __showicon($r){
 	$s['btn']='https://i.imgur.com/tqpclqF.png';
-	$s['alfamini']='https://i.gifer.com/ckP.gif';
-	$s['loader']='https://i.gifer.com/ckP.gif';
+	$s['alfamini']='https://i.imgur.com/uqJNxpo.jpeg';
+	$s['loader']='https://i.imgur.com/uqJNxpo.jpeg';
 	//return 'data:image/png;base64,'.__get_resource($s[$r]);
 	return $s[$r];
 }
